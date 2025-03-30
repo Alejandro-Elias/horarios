@@ -9,6 +9,11 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...compat.extends("next/core-web-vitals")];
-
-export default eslintConfig;
+export default [
+  ...compat.extends("next/core-web-vitals"), // ✅ Se coloca en el array principal
+  {
+    rules: {
+      "react/jsx-pascal-case": ["error", { allowAllCaps: true, ignore: ["page"] }], // ✅ Se mantiene la regla
+    },
+  },
+];
