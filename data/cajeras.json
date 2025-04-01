@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "nombre": "Mercedes",
-    "apellido": "Sanchez",
+    "nombre": "Pilar",
+    "apellido": "Alsina",
     "horarios": [
       {
         "dia": "Lunes",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
-        "entradaM": "09:00",
+        "entradaM": "",
         "salidaM": "",
         "entradaT": "",
         "salidaT": ""
       },
       {
         "dia": "Martes",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -24,7 +24,7 @@
       },
       {
         "dia": "Miércoles",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -33,7 +33,7 @@
       },
       {
         "dia": "Jueves",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -42,7 +42,7 @@
       },
       {
         "dia": "Viernes",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -51,7 +51,7 @@
       },
       {
         "dia": "Sábado",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -60,8 +60,1058 @@
       },
       {
         "dia": "Domingo",
-        "franco": false,
+        "franco": "no",
         "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Rocio",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "tipo": "caja",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Brenda",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Jenifer ",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Priscila",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Antonella",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Alicia",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Yohana",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Eros",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Santiago",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Gaby",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Tiago ",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Luciano",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Lujan",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Yesica",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Maria",
+    "apellido": "Alsina",
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Martes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Miércoles",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Jueves",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Viernes",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Sábado",
+        "franco": "no",
+        "sector": "",
+        "entradaM": "",
+        "salidaM": "",
+        "entradaT": "",
+        "salidaT": ""
+      },
+      {
+        "dia": "Domingo",
+        "franco": "no",
+        "sector": "",
         "entradaM": "",
         "salidaM": "",
         "entradaT": "",

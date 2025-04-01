@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MostrarHorarios } from "./MostrarHorarios";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <div className=""></div>
       <div className="flex flex-col gap-2">
         <Link href="/cajeras" className="cursor-pointer">
-          Lista de Cajeras
+          Lista de Empleados
         </Link>
         <Link href="/horarios" className="cursor-pointer">
           Crear horario
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center mt-20">
       </div>
+      <MostrarHorarios />
     </div>
   );
 }
