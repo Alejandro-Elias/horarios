@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Undo } from "lucide-react";
+import "../globals.css";
+
 
 export default function Page() {
   const [Cajeras, setCajeras] = useState([]);
@@ -78,7 +80,7 @@ export default function Page() {
   useEffect(() => {
     const fetchCajeras = async () => {
       const response = await fetch("/api/cajeras");
-      if (!response.ok) throw new Error("Error al obtener las cajeras");
+      if (!response.ok) {throw new Error("Error al obtener las cajeras")};
       const data = await response.json();
       setCajeras(data);
     };
@@ -195,7 +197,7 @@ export default function Page() {
                       handleInputChange(index, "tipo", e.target.value)
                     }
                   >
-                    {["caja", "reposicion"].map((option) => (
+                    {["caja", "reposicion", "fiambreria"].map((option) => (
                       <option
                         className="text-black"
                         key={option}
@@ -209,9 +211,11 @@ export default function Page() {
                 {["entradaM", "salidaM", "entradaT", "salidaT"].map((field) => (
                   <td key={field} className="border border-gray-400 p-2">
                     <input
-                      className="border p-1 w-full"
+                      className="border p-1 w-full text-white"
                       type="time"
                       step="900"
+                      min="08:00"
+                      max="21:00"
                       value={dia[field] || ""}
                       onChange={(e) =>
                         handleInputChange(index, field, e.target.value)

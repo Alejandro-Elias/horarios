@@ -8,8 +8,8 @@
         "dia": "Lunes",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "08:30",
+        "salidaM": "12:30",
         "entradaT": "",
         "salidaT": ""
       },
@@ -17,8 +17,8 @@
         "dia": "Martes",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "08:30",
+        "salidaM": "12:30",
         "entradaT": "",
         "salidaT": ""
       },
@@ -26,8 +26,8 @@
         "dia": "Miércoles",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "08:30",
+        "salidaM": "12:30",
         "entradaT": "",
         "salidaT": ""
       },
@@ -35,8 +35,8 @@
         "dia": "Jueves",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "08:30",
+        "salidaM": "12:30",
         "entradaT": "",
         "salidaT": ""
       },
@@ -44,8 +44,8 @@
         "dia": "Viernes",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "08:30",
+        "salidaM": "12:30",
         "entradaT": "",
         "salidaT": ""
       },
@@ -53,14 +53,14 @@
         "dia": "Sábado",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "08:30",
+        "salidaM": "12:30",
         "entradaT": "",
         "salidaT": ""
       },
       {
         "dia": "Domingo",
-        "franco": "no",
+        "franco": "completo",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -76,7 +76,7 @@
     "horarios": [
       {
         "dia": "Lunes",
-        "franco": "no",
+        "franco": "completo",
         "tipo": "caja",
         "entradaM": "",
         "salidaM": "",
@@ -87,53 +87,53 @@
         "dia": "Martes",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "12:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Miércoles",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "20:30",
+        "salidaM": "12:30",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Jueves",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "20:30",
+        "salidaM": "12:30",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Viernes",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "12:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Sábado",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "20:30",
+        "salidaM": "12:30",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Domingo",
         "franco": "no",
         "tipo": "caja",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "20:30",
+        "salidaM": "13:30",
         "entradaT": "",
         "salidaT": ""
       }
@@ -148,23 +148,23 @@
         "dia": "Lunes",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "20:30",
+        "salidaM": "12:30",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Martes",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "10:00",
+        "salidaM": "14:00",
+        "entradaT": "14:30",
+        "salidaT": "18:30"
       },
       {
         "dia": "Miércoles",
-        "franco": "no",
+        "franco": "completo",
         "sector": "",
         "entradaM": "",
         "salidaM": "",
@@ -175,32 +175,32 @@
         "dia": "Jueves",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "00:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Viernes",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "00:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Sábado",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "10:00",
+        "salidaM": "16:00",
+        "entradaT": "16:30",
+        "salidaT": "20:30"
       },
       {
         "dia": "Domingo",
-        "franco": "no",
+        "franco": "completo",
         "sector": "",
         "entradaM": "",
         "salidaM": "",
@@ -218,14 +218,14 @@
         "dia": "Lunes",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "12:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Martes",
-        "franco": "no",
+        "franco": "completo",
         "sector": "",
         "entradaM": "",
         "salidaM": "",
@@ -236,44 +236,44 @@
         "dia": "Miércoles",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "08:30",
+        "salidaM": "00:30",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Jueves",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "12:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Viernes",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "20:30",
+        "salidaM": "12:30",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Sábado",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
-        "entradaT": "",
-        "salidaT": ""
+        "entradaM": "12:15",
+        "salidaM": "16:15",
+        "entradaT": "16:45",
+        "salidaT": "20:45"
       },
       {
         "dia": "Domingo",
         "franco": "no",
         "sector": "",
-        "entradaM": "",
-        "salidaM": "",
+        "entradaM": "20:00",
+        "salidaM": "13:30",
         "entradaT": "",
         "salidaT": ""
       }
