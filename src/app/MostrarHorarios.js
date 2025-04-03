@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 export const MostrarHorarios = () => {
   const [cajeras, setCajeras] = useState([]);
+  const [error, setError] = useState([]);
 
   useEffect(() => {
     const fetchCajeras = async () => {
@@ -15,6 +16,92 @@ export const MostrarHorarios = () => {
 
     fetchCajeras();
   }, []);
+
+  const handleChangeTable = () => {
+    let diasCaja = {};
+    let diasFiambrera = {};
+    let diasRepositor = {};
+  
+    let errorCajera = "";
+    let errorFiambrera = "";
+    let errorRepositor = "";
+  
+    const ordenarPorDia = (tipo, variable) => {
+      cajeras.forEach((cajera) => {
+        cajera.horarios.forEach((horario) => {
+          if (horario.tipo === tipo) {
+            const dia = horario.dia;
+  
+            if (!variable[dia]) {
+              variable[dia] = []; 
+            }
+  
+            if (horario.entradaM || horario.entradaT) {
+              variable[dia].push({
+                cajera: cajera.nombre,
+                entradaM: horario.entradaM || null,
+                salidaM: horario.salidaM || null,
+                entradaT: horario.entradaT || null,
+                salidaT: horario.salidaT || null,
+              });
+            }
+          }
+        });
+      });
+    };
+  
+    ordenarPorDia("caja", diasCaja);
+    ordenarPorDia("fiambrera", diasFiambrera);
+    ordenarPorDia("repositor", diasRepositor);
+  
+    const verificarHorarios = (dias) => {
+      let errores = [];
+  
+      Object.keys(dias).forEach((dia) => {
+        let empleados = dias[dia];
+  
+        let eventos = [];
+  
+        empleados.forEach((empleado) => {
+          if (empleado.entradaM && empleado.salidaM) {
+            eventos.push({ hora: empleado.entradaM, tipo: "inicio", nombre: empleado.cajera });
+            eventos.push({ hora: empleado.salidaM, tipo: "fin", nombre: empleado.cajera });
+          }
+          if (empleado.entradaT && empleado.salidaT) {
+            eventos.push({ hora: empleado.entradaT, tipo: "inicio", nombre: empleado.cajera });
+            eventos.push({ hora: empleado.salidaT, tipo: "fin", nombre: empleado.cajera });
+          }
+        });
+  
+        eventos.sort((a, b) => a.hora.localeCompare(b.hora));
+  
+        let enTurno = 0;
+  
+        eventos.forEach((evento) => {
+          if (evento.tipo === "inicio") {
+            enTurno++;
+          } else {
+            enTurno--;
+          }
+  
+          if (enTurno < 2) {
+            errores.push({ dia, hora: evento.hora, problema: `Solo ${enTurno} empleados en el turno` });
+          }
+        });
+      });
+  
+      console.log("Errores detectados:", errores);
+    };
+  
+    verificarHorarios(diasCaja);
+    verificarHorarios(diasFiambrera);
+    verificarHorarios(diasRepositor);
+  };
+  
+  handleChangeTable();
+  
+
+  handleChangeTable();
 
   return (
     <div className="">
@@ -99,6 +186,7 @@ export const MostrarHorarios = () => {
           ))}
         </tbody>
       </table>
+      <div>{error}</div>
     </div>
   );
 };
